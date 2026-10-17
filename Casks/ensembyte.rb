@@ -8,7 +8,7 @@ cask "ensembyte" do
   homepage "https://ensembyte.vercel.app"
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Ensembyte.app"
 
